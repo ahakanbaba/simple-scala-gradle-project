@@ -16,5 +16,12 @@ In this project we build a simple scala application using gradle
 scala -cp build/libs/simple-scala-gradle-project.jar  example.Main
 ```
 
+## Test
+
+```
+./gradlew test
+```
+
+
 Note: The scala interpreter needs to have the same version as the scala version
 mentioned in the build.gradle file
